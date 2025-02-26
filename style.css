@@ -18,7 +18,7 @@ nav a {
     margin: 0 15px;
 }
 
-.intro, .projects {
+.intro, .projects, .contact {
     text-align: center;
     padding: 2rem;
 }
@@ -60,6 +60,21 @@ nav a {
 
 .project-link:hover {
     background-color: #0056b3;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 footer {
